@@ -17,7 +17,7 @@ spec:
           image: docker.io/deepakd01/docker-pro-db:V1
           ports:
             - name: vprodb-port
-            - containerPort: 3306
+              containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
